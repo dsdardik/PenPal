@@ -1,5 +1,5 @@
 # PenPal
-Facebook chatbot that anonymously pairs Facebook friends in Messenger by relaying messages. Curious if you can tell who your friends are just by having a conversation? Ever wonder how well you connect with friends you don't many opportunites to converse with? Start using PenPal to find out!
+PenPal is a Facebook chatbot that anonymously pairs Facebook friends in Messenger by relaying messages. Curious if you can tell who your friends are just by having a conversation? Ever wonder how well you connect with friends you don't many opportunites to converse with? Start using PenPal to find out!
 
 
 ## Getting Started
