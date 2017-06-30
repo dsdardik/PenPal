@@ -1,9 +1,0 @@
-{
-  "name": "chat-bot",
-  "version": "0.0.0",
-  "description": "ChatBot",
-  "main": "server.js",
-  "author": {
-    "name": "dsdar"
-  }
-}
