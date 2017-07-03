@@ -1,14 +1,17 @@
 {
-  "name": "chat-bot",
-  "version": "0.0.0",
-  "description": "ChatBot",
+  "name": "pen-pal",
+  "version": "1.0.0",
+  "description": "",
   "main": "server.js",
-  "author": {
-    "name": "dsdar"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/dsdardik/PenPal.git"
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "request": "^2.81.0"
   }
 }
