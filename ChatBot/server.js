@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const app = express();
-const pageAccessToken = "EAATxWxSl2ugBAFnlQWrFKsSlDINvM57w202sBzl3HqsFeePYQZBABD9VEN04JIWwMpfjZA7FiDHgoyyNbuQG6aed3szns42XP1hK4TEfivtWzSQVFTlSyJlivqcuubMkwc3sAcUjb5OtvsrPaoq9DerVmrQf9YhFW9NOyYKQZDZD";
+const pageAccessToken = "";
 
 var port = process.env.PORT || 1337;
 app.set('port', (port));
@@ -14,15 +14,7 @@ app.use(bodyParser.json());
 
 app.get('/', function (req, res) {
     console.log("get: /");
-    //res.send('Hello world');
-    if (req.query['hub.mode'] === 'subscribe' &&
-        req.query['hub.verify_token'] === "penPalServer_Token") {
-        console.log("Validating webhook");
-        res.status(200).send(req.query['hub.challenge']);
-    } else {
-        console.error("Failed validation. Make sure the validation tokens match.");
-        res.sendStatus(403);
-    }  
+    res.send('Hello world');
 });
 
 app.get('/webhook', function (req, res) {
