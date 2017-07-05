@@ -7,7 +7,7 @@ PenPal is a back-end server application written in JavaScript with Node.js and E
 A Facebook account is required to use PenPal. Start by sending a message to the PenPal chatbot. PenPal can be found in the discover section of Facebook Messenger by searching "PenPal". 
 
 ## How it works
-Send and receive messages to the chatbot account as you would do with any person. PenPal receives your message and randomly pairs you with someone in your friends list to have an anonymous conversation. It relays your messages so you only appear to be talking to the chatbot. You can remain anonymous, or when you're ready, choose to reveal yourselves.
+Send and receive messages to the chatbot account as you would do with any person. PenPal receives your message and randomly pairs you with someone in your friends list to have an anonymous conversation. It relays your messages so you only appear to be talking to the chatbot. You can remain anonymous, or when you're ready, choose to reveal yourself.
 
 ## Author
 David Dardik
